@@ -1,0 +1,47 @@
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'averta_stdregular';
+  font-weight: normal;
+  src: url(https://static2.lottiefiles.com/fonts/avertastd-regular-webfont.woff2) format('woff2');
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'averta_stdbold';
+  src: url(https://static2.lottiefiles.com/fonts/avertastd-bold-webfont.woff2) format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'averta_stdsemibold';
+  src: url(https://static2.lottiefiles.com/fonts/avertastd-semibold-webfont.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'averta_stdextrabold';
+  src: url(https://static2.lottiefiles.com/fonts/avertastd-extrabold-webfont.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+.first-child-full-width > :first-child {
+  width: 100%;
+}
+
+.font-lf-bold {
+  font-family: 'averta_stdbold', sans-serif;
+  font-weight: bold;
+}
+
+.inline {
+  display: block !important;
+}
